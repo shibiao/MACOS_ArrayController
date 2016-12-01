@@ -14,6 +14,7 @@
 		91E085951DF002DF002DFFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E085931DF002DF002DFFC7 /* Main.storyboard */; };
 		91E085A01DF002DF002DFFC7 /* MACOS_ArrayControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E0859F1DF002DF002DFFC7 /* MACOS_ArrayControllerTests.swift */; };
 		91E085AB1DF002DF002DFFC7 /* MACOS_ArrayControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E085AA1DF002DF002DFFC7 /* MACOS_ArrayControllerUITests.swift */; };
+		91E085B91DF0045E002DFFC7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E085B81DF0045E002DFFC7 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		91E085A61DF002DF002DFFC7 /* MACOS_ArrayControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MACOS_ArrayControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E085AA1DF002DF002DFFC7 /* MACOS_ArrayControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MACOS_ArrayControllerUITests.swift; sourceTree = "<group>"; };
 		91E085AC1DF002DF002DFFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E085B81DF0045E002DFFC7 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				91E0858F1DF002DF002DFFC7 /* Document.swift */,
 				91E085911DF002DF002DFFC7 /* Assets.xcassets */,
 				91E085931DF002DF002DFFC7 /* Main.storyboard */,
+				91E085B81DF0045E002DFFC7 /* Person.swift */,
 				91E085961DF002DF002DFFC7 /* Info.plist */,
 			);
 			path = MACOS_ArrayController;
@@ -263,6 +266,7 @@
 			files = (
 				91E0858E1DF002DF002DFFC7 /* ViewController.swift in Sources */,
 				91E0858C1DF002DF002DFFC7 /* AppDelegate.swift in Sources */,
+				91E085B91DF0045E002DFFC7 /* Person.swift in Sources */,
 				91E085901DF002DF002DFFC7 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
